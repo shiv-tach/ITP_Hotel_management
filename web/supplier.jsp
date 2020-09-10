@@ -108,7 +108,7 @@
                                                 <div class="form-group row">
                                                     <label class="col-sm-3 form-control-label">Contact</label>
                                                     <div class="col-sm-9">
-                                                        <input id="contact" type="text" onkeypress="onClickValidationContactNumber()"	placeholder="contact" class="form-control form-control-warning">
+                                                        <input id="contact" type="text" onkeypress="onClickValidationContactNumber()" maxlength="10"	placeholder="contact" class="form-control form-control-warning">
                                                     </div>
                                                 </div>
                                                 <div class="form-group row">
