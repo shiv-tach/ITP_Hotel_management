@@ -21,7 +21,7 @@ public class Connector {
     public Connection getConnection() throws Exception {
         if (con == null) {
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_management_system_dinuka", "root", "1234");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_management_system_dinuka", "root", "Shiv");
         }
         return con;
     }
